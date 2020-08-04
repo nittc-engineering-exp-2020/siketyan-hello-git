@@ -6,11 +6,11 @@ int main()
     int min, s, t, i, j, n;
 
     printf("N=");
-    scanf_s("%d", n);
+    scanf("%d", n);
 
     for(i = 0; i < n; i++){
         printf("a[%d]=", i);
-        scanf_s("%d", a[i]);
+        scanf("%d", a[i]);
     }
 
     for(i = 0; i < n; i++)
