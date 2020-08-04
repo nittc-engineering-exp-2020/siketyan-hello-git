@@ -11,7 +11,7 @@ HELLO = hello
 HELLO_C = $(HELLO).c
 
 $(HELLO):
-	$(CC) -o $(BIN)/$(HELLO) $(SRC)/$(HELLO_C)
+	$(CC) -o $(BIN)/$(HELLO) -static $(SRC)/$(HELLO_C)
 
 setup:
 	$(MKDIR) -p $(BIN)
