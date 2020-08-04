@@ -8,7 +8,8 @@ int main()
     printf("N=");
     scanf("%d", &n);
 
-    for(i = 0; i < n; i++){
+    for(i = 0; i < n; i++)
+    {
         printf("a[%d]=", i);
         scanf("%d", &a[i]);
     }
@@ -16,7 +17,7 @@ int main()
     for(i = 0; i < n; i++)
     {
         min = a[i];
-        s=i;
+        s = i;
 
         for(j = i + 1; j < n; j++)
         {
